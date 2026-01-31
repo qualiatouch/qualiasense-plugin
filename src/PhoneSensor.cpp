@@ -397,7 +397,7 @@ float PhoneSensor::calculateOutputVoltage(float rawValue, float rawMin, float ra
 
 PhoneSensor::Status PhoneSensor::getStatus(bool hasError, bool isMeasuring) {
     if (hasError) {
-        return ERROR;
+        return FAILURE;
     }
 
     if (isMeasuring) {
@@ -425,7 +425,7 @@ void PhoneSensor::updateLedColor() {
         case NOT_MEASURING:
             setStatusLedColor(1.f, 0.5f, 0.f);
             break;
-        case ERROR:
+        case FAILURE:
             setStatusLedColor(1.f, 0.f, 0.f);
             break;
         default:

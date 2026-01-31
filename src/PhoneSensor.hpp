@@ -44,7 +44,7 @@ struct PhoneSensor : Module {
             INIT,
             MEASURING,
             NOT_MEASURING,
-            ERROR
+            FAILURE
         };
 
         enum Sensor {
