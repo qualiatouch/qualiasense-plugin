@@ -55,11 +55,11 @@ The CV signals coming out of the three outputs X, Y and Z will correspond to dif
 |---------------------|----------|----------|----------|
 | Magnetic (µT)       | X axis   | Y axis   | Z axis   |
 | Acceleration (m/s²) | X axis   | Y axis   | Z axis   |
-| Light (lx)          | intensity| nothing  | nothing  |
-| Tilt (°)            | up-down  |left-right| nothing  |
-| Sound intensity (dB)| X axis   | nothing  | nothing  |
-| Color (0-255)       | Red      | Green    | Blue     |
 | Gyroscope (rad/s)   | X axis   | Y axis   | Z axis   |
+| Light (lx)          | intensity| nothing  | nothing  |
+| Sound           (dB)| intensity| nothing  | nothing  |
+| Tilt (°)            | up-down  |left-right| nothing  |
+| Color (0-255)       | Red      | Green    | Blue     |
 
 For each output, the raw value is scaled and clamped to a 10V range.
 
