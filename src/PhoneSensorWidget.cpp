@@ -143,7 +143,7 @@ PhoneSensorWidget::PhoneSensorWidget(PhoneSensor* moduleParam) {
     addChild(createWidget<ScrewBlack>(Vec(0, 0)));
     addChild(createWidget<ScrewBlack>(Vec(RACK_GRID_WIDTH * 2, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 
-    addChild(createLightCentered<SmallLight<RedGreenBlueLight>>(mm2px(Vec(7.625, 42.5)), module, PhoneSensor::STATUS_LIGHT_RED));
+    addChild(createLightCentered<SmallLight<RedGreenBlueLight>>(mm2px(Vec(7.625, 37.5)), module, PhoneSensor::STATUS_LIGHT_RED));
 
     addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(7.625, 52.5)), module, PhoneSensor::OUT_X));
     addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(7.625, 72.5)), module, PhoneSensor::OUT_Y));
