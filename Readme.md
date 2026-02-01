@@ -12,6 +12,10 @@ QualiaSense is part of the QualiaTouch project. QualiaTouch is about giving the 
 
 The PhoneSensor module retrieves sensor data from a smartphone, and transforms it into CV signals. It requires the use of the PhyPhox app. Configuration and usage are described in the [documentation](doc/phonesensor.md) page.
 
+Here's a demo of the module using the accelerometer sensor:
+
+[![Demo with accelerometer](https://img.youtube.com/vi/3ZaevY0YfXE/0.jpg)](https://www.youtube.com/watch?v=3ZaevY0YfXE)
+
 ## Contributing
 
 Contributions are much welcome! Especially from C++ experienced people, who'll know how to optimize the execution, clean the code, and most importantly, prevent memory leaks. Also from svg-friendly people, to improve the module widgets.

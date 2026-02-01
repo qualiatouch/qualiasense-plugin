@@ -28,7 +28,7 @@ You can request support of another sensor type at qualiatouch@proton.me.
 
 ## Instructions
 
-1. On the smartphone, open the PhyPhox app, select a sensor (among the ones supported by the module), and in the top-right menu, select the option to allow remote control. This will open a webserver in the app, accessible from the local network, and the app will display the ip and port of the webserver. This will make the data available from the PhoneSensor module.
+1. On the smartphone, open the PhyPhox app, select a sensor (among the ones supported by the module), and in the top-right menu, select the option to allow remote control. This will open a webserver in the app, accessible from the local network, and the app will display the ip and port of the webserver. This will make the data available from the PhoneSensor module. You can also follow that creen recording: https://www.youtube.com/watch?v=pQh_ybnBwRQ
 2. Select the same type of sensor in the parameters (right-click menu) of the PhoneSensor module.
 3. Set the ip/port in the parameters of the module. The LED should turn green.
 4. Use the X/Y/Z outputs of the module to command everything you want.
